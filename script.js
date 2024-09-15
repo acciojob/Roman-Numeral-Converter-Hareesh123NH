@@ -25,6 +25,7 @@ function convertToRoman(num) {
     ['IV', 4], 
     ['I', 1]
   ];
+	let result="";
   for (let i = 0; i < romanNumerals.length; i++) {
     const [symbol, value] = romanNumerals[i];
     
